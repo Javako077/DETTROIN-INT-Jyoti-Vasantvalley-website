@@ -1,0 +1,321 @@
+/* ==========================================================================
+   Vasant Valley School - Luxury Handcrafted Design System & Typography
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Warm Architectural Linen & Heritage Crimson */
+  --bg-main: #FAF8F5;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F3EFE9;
+  --bg-dark: #0C1726;
+  --bg-dark-surface: #142238;
+
+  --text-primary: #0F1E36;
+  --text-secondary: #4A5568;
+  --text-muted: #718096;
+  --text-light: #F7FAFC;
+
+  --accent-crimson: #9F0622;
+  --accent-crimson-hover: #7E041A;
+  --accent-terracotta: #C85A32;
+  --accent-sage: #4E6E5D;
+  --accent-gold: #C5A059;
+
+  --border-light: #E8E2D8;
+  --border-medium: #D5CDBF;
+
+  /* Typography Scale */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Outfit', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+
+  /* Elevation & Shadows */
+  --shadow-subtle: 0 4px 20px -2px rgba(15, 30, 54, 0.05);
+  --shadow-card: 0 10px 30px -4px rgba(15, 30, 54, 0.08);
+  --shadow-hover: 0 20px 40px -6px rgba(15, 30, 54, 0.14);
+  --shadow-glow: 0 0 25px rgba(159, 6, 34, 0.2);
+
+  /* Transitions */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+  --transition-fast: 0.2s var(--ease-out-expo);
+  --transition-medium: 0.4s var(--ease-out-expo);
+  --transition-slow: 0.7s var(--ease-out-expo);
+
+  /* Layout */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+}
+
+/* Reset & Global Base Settings */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+/* Selection Color */
+::selection {
+  background: var(--accent-crimson);
+  color: #FFFFFF;
+}
+
+/* Headings Base */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.heading-serif {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-crimson);
+}
+
+/* Layout Utilities */
+.container-custom {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    padding: 0 2.5rem;
+  }
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+@media (min-width: 992px) {
+  .section-padding {
+    padding: 7rem 0;
+  }
+}
+
+/* Editorial Badge Pill */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: rgba(159, 6, 34, 0.08);
+  color: var(--accent-crimson);
+  border: 1px solid rgba(159, 6, 34, 0.18);
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.badge-pill-light {
+  background: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.9rem 2rem;
+  background-color: var(--accent-crimson);
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--accent-crimson);
+  box-shadow: 0 4px 14px rgba(159, 6, 34, 0.3);
+  cursor: pointer;
+  transition: all var(--transition-medium);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-crimson-hover);
+  border-color: var(--accent-crimson-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(159, 6, 34, 0.4);
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.9rem 2rem;
+  background-color: transparent;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-medium);
+  cursor: pointer;
+  transition: all var(--transition-medium);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-surface);
+  border-color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-subtle);
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+  color: var(--text-primary);
+  border: 1px solid #FFFFFF;
+}
+
+.btn-white:hover {
+  background-color: var(--bg-subtle);
+  color: var(--accent-crimson);
+}
+
+/* Luxury Cards */
+.card-luxury {
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-subtle);
+  transition: all var(--transition-medium);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-luxury:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--border-medium);
+}
+
+.card-luxury::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0%;
+  background: var(--accent-crimson);
+  transition: height var(--transition-medium);
+}
+
+.card-luxury:hover::before {
+  height: 100%;
+}
+
+/* Image Framing with Subtle Shadow */
+.img-frame {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.img-frame:hover img {
+  transform: scale(1.04);
+}
+
+/* Section Header Component Style */
+.section-header-wrap {
+  margin-bottom: 3.5rem;
+}
+
+.section-header-wrap .title {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .section-header-wrap .title {
+    font-size: 2.85rem;
+  }
+}
+
+/* Grid helper */
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid-responsive-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-responsive-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-responsive-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
