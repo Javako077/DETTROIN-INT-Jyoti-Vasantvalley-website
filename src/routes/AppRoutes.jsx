@@ -19,6 +19,8 @@ import InterSchool from '../pages/Programmes/InterSchool';
 import AlumniConnect from '../pages/AlumniConnect/AlumniConnect';
 import BatchConnect from '../pages/BatchConnect/BatchConnect';
 import CareerConnect from '../pages/CareerConnect/CareerConnect';
+import CEE from '../pages/CEE/CEE';
+import Contact from '../pages/Contact/Contact';
 
 export default function AppRoutes() {
   return (
@@ -42,6 +44,8 @@ export default function AppRoutes() {
         <Route path="announcements" element={<NewsEvents />} />
         <Route path="news-events" element={<NewsEvents />} />
         <Route path="news-and-events" element={<NewsEvents />} />
+        <Route path="cee" element={<CEE />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="faqs" element={<FAQs />} />
         <Route path="login" element={<Login />} />
       </Route>
