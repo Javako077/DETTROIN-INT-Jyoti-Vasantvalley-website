@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import MainLayout from '../layouts/MainLayout';
 import Home from '../pages/Home';
 import About from '../pages/About';
+import VisionPhilosophy from '../pages/VisionPhilosophy';
 
 export default function AppRoutes() {
   return (
@@ -10,6 +11,7 @@ export default function AppRoutes() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="vision-philosophy" element={<VisionPhilosophy />} />
       </Route>
     </Routes>
   );
