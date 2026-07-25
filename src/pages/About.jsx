@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import PageHeader from '../../components/Shared/PageHeader';
-import SectionHeader from '../../components/Shared/SectionHeader';
+import PageHeader from '../components/Shared/PageHeader';
+import SectionHeader from '../components/Shared/SectionHeader';
 
 export default function About() {
   const formerLeaders = [

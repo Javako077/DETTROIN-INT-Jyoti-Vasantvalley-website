@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles, BookOpen, Compass, Award, Calendar, Bell } from 'lucide-react';
-import HeroSlider from '../../components/Shared/HeroSlider';
-import SectionHeader from '../../components/Shared/SectionHeader';
+import HeroSlider from '../components/Shared/HeroSlider';
+import SectionHeader from '../components/Shared/SectionHeader';
 
 export default function Home() {
   const heroSlides = [
