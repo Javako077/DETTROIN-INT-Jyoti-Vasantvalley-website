@@ -317,10 +317,9 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="img-frame"
-              style={{ minHeight: '400px' }}
+              className="img-frame-diagram"
             >
-              <Link to="/learning-experience">
+              <Link to="/learning-experience" style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                 <img src="/wp-content/uploads/2021/04/learning-image-image.png" alt="Learning Experience" />
               </Link>
             </motion.div>

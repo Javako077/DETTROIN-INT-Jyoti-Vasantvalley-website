@@ -277,6 +277,34 @@ img {
   transform: scale(1.04);
 }
 
+/* Diagram Framing (preserves full diagram image and outer text without cropping) */
+.img-frame-diagram {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light);
+  padding: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-frame-diagram img {
+  max-width: 100%;
+  max-height: 380px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform var(--transition-slow);
+}
+
+.img-frame-diagram:hover img {
+  transform: scale(1.03);
+}
+
+
 /* Section Header Component Style */
 .section-header-wrap {
   margin-bottom: 3.5rem;
