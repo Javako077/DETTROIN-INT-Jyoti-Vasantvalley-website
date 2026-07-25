@@ -63,11 +63,12 @@ export default function VisionPhilosophy() {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
               className="img-frame"
-              style={{ minHeight: '400px' }}
+              style={{ height: '400px', minHeight: '400px' }}
             >
               <img
                 src="/assets/uploads/2021/04/image-vasant2.png"
                 alt="Vision & Philosophy"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
             </motion.div>
           </div>
