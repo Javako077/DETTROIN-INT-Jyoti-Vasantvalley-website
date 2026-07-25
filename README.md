@@ -4,7 +4,7 @@ A modern, high-performance, and responsive single-page web application recreatin
 
 ---
 
-## 📋 Developer & Submission Information
+##  Developer & Submission Information
 
 - **Full Name**: Jyoti Pandey
 - **Intern ID**: `DETTROIN-INT-JYOTI`
@@ -15,7 +15,7 @@ A modern, high-performance, and responsive single-page web application recreatin
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Frontend Framework**: React 18 & Vite
 - **Routing**: React Router DOM (`react-router-dom`)
@@ -26,7 +26,7 @@ A modern, high-performance, and responsive single-page web application recreatin
 
 ---
 
-## ✨ Key Improvements Made
+##  Key Improvements Made
 
 1. **Modern React + Vite Architecture**:
    - Transformed the legacy website into a fast Single Page Application (SPA) with zero full-page reloads and client-side routing.
@@ -41,7 +41,7 @@ A modern, high-performance, and responsive single-page web application recreatin
 
 ---
 
-## 🚀 Local Setup & Installation
+##  Local Setup & Installation
 
 1. **Clone the Repository**:
    ```bash

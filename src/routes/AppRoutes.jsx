@@ -12,6 +12,13 @@ import InternationalCurriculum from '../pages/InternationalCurriculum';
 import UniversityPlacements from '../pages/UniversityPlacements';
 import FAQs from '../pages/FAQs';
 import Login from '../pages/Login';
+import Admission from '../pages/Admission/Admission';
+import NewsEvents from '../pages/NewsEvents/NewsEvents';
+import IntraSchool from '../pages/Programmes/IntraSchool';
+import InterSchool from '../pages/Programmes/InterSchool';
+import AlumniConnect from '../pages/AlumniConnect/AlumniConnect';
+import BatchConnect from '../pages/BatchConnect/BatchConnect';
+import CareerConnect from '../pages/CareerConnect/CareerConnect';
 
 export default function AppRoutes() {
   return (
@@ -26,6 +33,15 @@ export default function AppRoutes() {
         <Route path="a-day-in-school" element={<ADayInSchool />} />
         <Route path="international-curriculum" element={<InternationalCurriculum />} />
         <Route path="university-placements" element={<UniversityPlacements />} />
+        <Route path="programmes/intra-school" element={<IntraSchool />} />
+        <Route path="programmes/inter-school" element={<InterSchool />} />
+        <Route path="admission" element={<Admission />} />
+        <Route path="alumni-connect" element={<AlumniConnect />} />
+        <Route path="batch_connect" element={<BatchConnect />} />
+        <Route path="career-connect" element={<CareerConnect />} />
+        <Route path="announcements" element={<NewsEvents />} />
+        <Route path="news-events" element={<NewsEvents />} />
+        <Route path="news-and-events" element={<NewsEvents />} />
         <Route path="faqs" element={<FAQs />} />
         <Route path="login" element={<Login />} />
       </Route>
