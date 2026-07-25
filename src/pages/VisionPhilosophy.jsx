@@ -47,7 +47,7 @@ export default function VisionPhilosophy() {
               transition={{ duration: 0.8 }}
             >
               <span className="badge-pill" style={{ marginBottom: '1rem' }}>
-                <Award size={14} /> School Motto
+                <Award size={15} /> School Motto
               </span>
               <h3 className="heading-serif" style={{ fontSize: 'clamp(2.2rem, 4vw, 3.2rem)', color: 'var(--accent-crimson)', marginBottom: '1.5rem' }}>
                 Excellence in Deed
