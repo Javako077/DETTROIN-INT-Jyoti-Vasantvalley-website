@@ -7,42 +7,42 @@ export default function About() {
   const formerLeaders = [
     {
       name: 'Ranu Dattagupta',
-      img: '/wp-content/uploads/2021/06/ranu.jpg',
+      img: '/assets/uploads/2021/06/ranu.jpg',
       role: 'PRINCIPAL 1998 - 1999 | HEAD OF SENIOR SCHOOL 1997 – 1999',
     },
     {
       name: 'Paramjit Kaur Narang',
-      img: '/wp-content/uploads/2021/06/narang.jpg',
+      img: '/assets/uploads/2021/06/narang.jpg',
       role: 'Head of School 2001 - 2002 | Head of Senior School 2000 - 2001 | Head of Junior School 1993 - 2000',
     },
     {
       name: 'Peilu Oberoi',
-      img: '/wp-content/uploads/2021/06/23153834/Peilu-Oberoi-1.jpg',
+      img: '/assets/uploads/2021/06/23153834/Peilu-Oberoi-1.jpg',
       role: 'Principal 2000-2006 | Head of Junior School 2000-2006',
     },
     {
       name: 'Rekha Bakshi',
-      img: '/wp-content/uploads/2021/06/23153518/Rekha-Bakshi-1.jpg',
+      img: '/assets/uploads/2021/06/23153518/Rekha-Bakshi-1.jpg',
       role: 'HEAD OF JUNIOR SCHOOL 2006 – 2019',
     },
     {
       name: 'Abha Ranjan',
-      img: '/wp-content/uploads/2021/06/image.jpg',
+      img: '/assets/uploads/2021/06/image.jpg',
       role: 'HEAD OF SPECIAL SECTION 1997 - 2002',
     },
     {
       name: 'Shalini Dave',
-      img: '/wp-content/uploads/2021/06/23153556/Shalini-Dave-1.jpg',
+      img: '/assets/uploads/2021/06/23153556/Shalini-Dave-1.jpg',
       role: 'HEAD OF SPECIAL SECTION 2002 – 2012',
     },
     {
       name: 'Sushmita Mitra',
-      img: '/wp-content/uploads/2021/04/23153632/Sushmita-Mitra-1.jpg',
+      img: '/assets/uploads/2021/04/23153632/Sushmita-Mitra-1.jpg',
       role: 'HEAD OF SPECIAL SECTION 2012 – 2022',
     },
     {
       name: 'Rekha Krishnan',
-      img: '/wp-content/uploads/2021/04/14142323/Rekha-Krishnan.jpg',
+      img: '/assets/uploads/2021/04/14142323/Rekha-Krishnan.jpg',
       role: 'Principal 2006 - March 2025',
     },
   ];
@@ -51,22 +51,22 @@ export default function About() {
     {
       name: 'Sharmila Bakshi',
       role: 'Principal',
-      img: '/wp-content/uploads/2021/04/sharmila.jpg',
+      img: '/assets/uploads/2021/04/sharmila.jpg',
     },
     {
       name: 'Vijay Trivedi',
       role: 'HEAD OF SENIOR SCHOOL',
-      img: '/wp-content/uploads/2025/04/02175614/vijay_trivedi_2-scaled.jpg',
+      img: '/assets/uploads/2025/04/02175614/vijay_trivedi_2-scaled.jpg',
     },
     {
       name: 'Mona Datta',
       role: 'HEAD OF JUNIOR SCHOOL',
-      img: '/wp-content/uploads/2021/04/mona-dutta.jpg',
+      img: '/assets/uploads/2021/04/mona-dutta.jpg',
     },
     {
       name: 'A. P. John',
       role: 'ADMINISTRATIVE HEAD',
-      img: '/wp-content/uploads/2021/04/john.jpg',
+      img: '/assets/uploads/2021/04/john.jpg',
     },
   ];
 
@@ -85,7 +85,7 @@ export default function About() {
             className="img-frame"
             style={{ maxHeight: '520px' }}
           >
-            <img src="/wp-content/uploads/2021/04/about-image.jpg" alt="About Us Banner" />
+            <img src="/assets/uploads/2021/04/about-image.jpg" alt="About Us Banner" />
           </motion.div>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function About() {
               style={{ width: '280px', textAlign: 'center', padding: '1.5rem' }}
             >
               <div className="img-frame" style={{ borderRadius: 'var(--radius-sm)', marginBottom: '1.25rem' }}>
-                <img src="/wp-content/uploads/2021/04/14104110/Rekha-Purie-1.jpg" alt="Ms. Rekha Purie" />
+                <img src="/assets/uploads/2021/04/14104110/Rekha-Purie-1.jpg" alt="Ms. Rekha Purie" />
               </div>
               <h3 className="heading-serif" style={{ fontSize: '1.25rem' }}>Ms. Rekha Purie</h3>
               <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Chairperson</span>
@@ -147,7 +147,7 @@ export default function About() {
               style={{ width: '280px', textAlign: 'center', padding: '1.5rem' }}
             >
               <div className="img-frame" style={{ borderRadius: 'var(--radius-sm)', marginBottom: '1.25rem' }}>
-                <img src="/wp-content/uploads/2021/04/14104201/Aroon-Purie-2.jpg" alt="Mr. Aroon Purie" />
+                <img src="/assets/uploads/2021/04/14104201/Aroon-Purie-2.jpg" alt="Mr. Aroon Purie" />
               </div>
               <h3 className="heading-serif" style={{ fontSize: '1.25rem' }}>Mr. Aroon Purie</h3>
               <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Founder</span>
@@ -171,7 +171,7 @@ export default function About() {
             >
               <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
                 <div style={{ width: '120px', height: '140px', flexShrink: 0 }} className="img-frame">
-                  <img src="/wp-content/uploads/2021/04/23153712/Ved-Vyas-1-1.jpg" alt="Mr. Ved Vyas" />
+                  <img src="/assets/uploads/2021/04/23153712/Ved-Vyas-1-1.jpg" alt="Mr. Ved Vyas" />
                 </div>
                 <div>
                   <h3 className="heading-serif" style={{ fontSize: '1.5rem' }}>Mr. Ved Vyas</h3>
@@ -193,7 +193,7 @@ export default function About() {
             >
               <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
                 <div style={{ width: '120px', height: '140px', flexShrink: 0 }} className="img-frame">
-                  <img src="/wp-content/uploads/2021/04/23153756/Arun-Kapur-1.jpg" alt="Mr. Arun Kapur" />
+                  <img src="/assets/uploads/2021/04/23153756/Arun-Kapur-1.jpg" alt="Mr. Arun Kapur" />
                 </div>
                 <div>
                   <h3 className="heading-serif" style={{ fontSize: '1.5rem' }}>Mr. Arun Kapur</h3>

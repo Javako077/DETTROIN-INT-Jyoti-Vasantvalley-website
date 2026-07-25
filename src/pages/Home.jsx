@@ -8,27 +8,27 @@ import SectionHeader from '../components/Shared/SectionHeader';
 export default function Home() {
   const heroSlides = [
     {
-      image: '/wp-content/uploads/2026/07/20114219/laissez_faire_2026_1.jpg',
+      image: '/assets/uploads/2026/07/20114219/laissez_faire_2026_1.jpg',
       title: '23rd Laissez Faire',
     },
     {
-      image: '/wp-content/uploads/2026/07/17193236/laissez_faire_202612.jpg',
+      image: '/assets/uploads/2026/07/17193236/laissez_faire_202612.jpg',
       title: '',
     },
     {
-      image: '/wp-content/uploads/2026/07/20114222/laissez_faire_2026_2.jpg',
+      image: '/assets/uploads/2026/07/20114222/laissez_faire_2026_2.jpg',
       title: '',
     },
     {
-      image: '/wp-content/uploads/2026/07/20114506/laissez_faire_2026_7-1.jpg',
+      image: '/assets/uploads/2026/07/20114506/laissez_faire_2026_7-1.jpg',
       title: '',
     },
     {
-      image: '/wp-content/uploads/2026/07/20114230/laissez_faire_2026_6.jpg',
+      image: '/assets/uploads/2026/07/20114230/laissez_faire_2026_6.jpg',
       title: '',
     },
     {
-      image: '/wp-content/uploads/2026/07/20114458/laissez_faire_2026_4-1.jpg',
+      image: '/assets/uploads/2026/07/20114458/laissez_faire_2026_4-1.jpg',
       title: 'nurturing independent minds',
     },
   ];
@@ -179,8 +179,8 @@ export default function Home() {
               style={{ minHeight: '420px' }}
             >
               <picture>
-                <source media="(max-width: 650px)" srcSet="/wp-content/themes/vasant/images/students.jpg" />
-                <img src="/wp-content/uploads/2021/04/image-vasant2.png" alt="Vasant Valley Students" />
+                <source media="(max-width: 650px)" srcSet="/assets/themes/vasant/images/students.jpg" />
+                <img src="/assets/uploads/2021/04/image-vasant2.png" alt="Vasant Valley Students" />
               </picture>
             </motion.div>
           </div>
@@ -234,8 +234,8 @@ export default function Home() {
               style={{ minHeight: '420px' }}
             >
               <picture>
-                <source media="(max-width: 650px)" srcSet="/wp-content/themes/vasant/images/ji.jpg" />
-                <img src="/wp-content/uploads/2021/04/image-vasant.png" alt="Campus Life" />
+                <source media="(max-width: 650px)" srcSet="/assets/themes/vasant/images/ji.jpg" />
+                <img src="/assets/uploads/2021/04/image-vasant.png" alt="Campus Life" />
               </picture>
             </motion.div>
 
@@ -320,7 +320,7 @@ export default function Home() {
               className="img-frame-diagram"
             >
               <Link to="/learning-experience" style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-                <img src="/wp-content/uploads/2021/04/learning-image-image.png" alt="Learning Experience" />
+                <img src="/assets/uploads/2021/04/learning-image-image.png" alt="Learning Experience" />
               </Link>
             </motion.div>
           </div>

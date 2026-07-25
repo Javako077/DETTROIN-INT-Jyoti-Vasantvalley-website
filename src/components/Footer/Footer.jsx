@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="footer-brand-col">
               <Link to="/">
                 <img
-                  src="/wp-content/themes/vasant/images/logo-vasant-valley.svg"
+                  src="/assets/themes/vasant/images/logo-vasant-valley.svg"
                   alt="Vasant Valley School"
                 />
               </Link>
@@ -131,7 +131,7 @@ export default function Footer() {
                 className="social-icon-btn"
                 aria-label="Facebook"
               >
-                <img src="/wp-content/themes/vasant/images/Face.svg" alt="Facebook" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
+                <img src="/assets/themes/vasant/images/Face.svg" alt="Facebook" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
               </a>
               <a
                 href="https://www.instagram.com/vasantvalleyschoolofficial/?hl=en"
@@ -140,7 +140,7 @@ export default function Footer() {
                 className="social-icon-btn"
                 aria-label="Instagram"
               >
-                <img src="/wp-content/themes/vasant/images/insta-icon.svg" alt="Instagram" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
+                <img src="/assets/themes/vasant/images/insta-icon.svg" alt="Instagram" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
               </a>
               <a
                 href="https://in.linkedin.com/school/vasant-valley-school/"
@@ -149,7 +149,7 @@ export default function Footer() {
                 className="social-icon-btn"
                 aria-label="LinkedIn"
               >
-                <img src="/wp-content/themes/vasant/images/in-icon.svg" alt="LinkedIn" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
+                <img src="/assets/themes/vasant/images/in-icon.svg" alt="LinkedIn" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
               </a>
               <a
                 href="https://www.youtube.com/channel/UCRXNIQzX175MX9hMVRWjmaA"
@@ -158,7 +158,7 @@ export default function Footer() {
                 className="social-icon-btn"
                 aria-label="YouTube"
               >
-                <img src="/wp-content/themes/vasant/images/youtube-icon.svg" alt="YouTube" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
+                <img src="/assets/themes/vasant/images/youtube-icon.svg" alt="YouTube" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
               </a>
             </div>
 

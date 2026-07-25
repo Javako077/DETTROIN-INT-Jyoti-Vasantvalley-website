@@ -73,7 +73,7 @@ export default function Navbar() {
         {/* Brand Logo */}
         <Link to="/" className="nav-logo" onClick={closeMobileMenu}>
           <img
-            src="/wp-content/themes/vasant/images/logo-vasant-valley.svg"
+            src="/assets/themes/vasant/images/logo-vasant-valley.svg"
             alt="Vasant Valley School"
           />
         </Link>
