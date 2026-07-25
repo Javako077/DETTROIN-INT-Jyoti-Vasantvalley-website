@@ -119,7 +119,7 @@ export default function Login() {
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
                 <div>
                   <label style={{ display: 'block', marginBottom: '0.4rem', fontWeight: 600, fontSize: '0.875rem', color: 'var(--text-primary)' }}>
-                    Email / Portal ID
+                    Email 
                   </label>
                   <input
                     type="email"
